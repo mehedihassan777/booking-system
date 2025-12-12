@@ -1,9 +1,7 @@
 {
   "version": 2,
-  "builds": [
-    { "src": "package.json", "use": "@vercel/static-build" }
-  ],
-  "outputDirectory": "build",
+  // builds removed to use Vercel's default static build detection
+  "outputDirectory": "build"
   "routes": [
     { "src": "/(.*)", "dest": "/index.html" }
   ]
