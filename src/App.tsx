@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { LandingPage } from './components/landing/LandingPage';
 import { BookingFlow } from './components/booking/BookingFlow';
 import { BusinessOwnerDashboard } from './components/dashboard/BusinessOwnerDashboard';
