@@ -1,7 +1,0 @@
-// Vercel build script for Vite
-{
-  "scripts": {
-    "build": "vite build",
-    "dev": "vite"
-  }
-}
